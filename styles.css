@@ -20,7 +20,7 @@ main {
 
 .hero {
   max-width: 880px;
-  margin: 0 auto 88px;
+  margin: 0 auto 48px;
   text-align: center;
 }
 
@@ -55,26 +55,6 @@ h2 {
 .authors {
   color: #55616e;
   font-size: 1.05rem;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 28px;
-}
-
-.button {
-  border: 1px solid #17212b;
-  border-radius: 999px;
-  color: inherit;
-  padding: 10px 18px;
-  text-decoration: none;
-}
-
-.button:hover {
-  background: #17212b;
-  color: #fff;
 }
 
 section + section {
@@ -135,7 +115,7 @@ figcaption {
   }
 
   .hero {
-    margin-bottom: 64px;
+    margin-bottom: 36px;
   }
 
   .demo-row figure {
