@@ -15,47 +15,77 @@
       <header class="hero">
         <p class="eyebrow">Masked Temporal-Body Transformer</p>
         <h1>Learning Long-Horizon Proprioceptive Representations for Robust Legged Locomotion</h1>
-        <p class="authors">Wenshuo Feng · The University of Hong Kong</p>
+        <p class="authors">FENG Wenshuo · The University of Hong Kong</p>
         <nav aria-label="Project links">
           <a class="button" href="#">Paper</a>
           <a class="button" href="#">Code</a>
         </nav>
       </header>
 
-      <section aria-labelledby="teaser-title">
-        <div class="section-heading">
-          <p class="eyebrow">Unitree Go2</p>
-          <h2 id="teaser-title">Robust locomotion across challenging terrain</h2>
-        </div>
-        <video class="teaser-video" controls autoplay muted loop playsinline>
-          <source src="assets/videos/teaser.mp4?v=4d2bf4e" type="video/mp4">
-        </video>
-      </section>
-
       <section aria-labelledby="demos-title">
         <div class="section-heading">
-          <p class="eyebrow">Demos</p>
-          <h2 id="demos-title">Locomotion in simulation</h2>
+          <p class="eyebrow">Real World Deployment</p>
+          <h2 id="demos-title">Robust locomotion on Unitree Go2</h2>
         </div>
-        <div class="demo-grid">
-          <figure>
-            <video controls muted loop playsinline>
-              <source src="assets/videos/rough-terrain.mp4" type="video/mp4">
-            </video>
-            <figcaption>Rough terrain</figcaption>
-          </figure>
-          <figure>
-            <video controls muted loop playsinline>
-              <source src="assets/videos/stairs.mp4" type="video/mp4">
-            </video>
-            <figcaption>Stairs</figcaption>
-          </figure>
-          <figure>
-            <video controls muted loop playsinline>
-              <source src="assets/videos/pushes.mp4" type="video/mp4">
-            </video>
-            <figcaption>External pushes</figcaption>
-          </figure>
+
+        <div class="demo-category">
+          <h3>Walk</h3>
+          <div class="demo-row">
+            <figure>
+              <video controls muted loop playsinline>
+                <source src="assets/demos/walk/grass_walk.mp4" type="video/mp4">
+              </video>
+              <figcaption>Grass walk</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="demo-category">
+          <h3>Push recovery</h3>
+          <div class="demo-row">
+            <figure>
+              <video controls muted loop playsinline>
+                <source src="assets/demos/push/flat_push.mp4" type="video/mp4">
+              </video>
+              <figcaption>Flat ground push</figcaption>
+            </figure>
+            <figure>
+              <video controls muted loop playsinline>
+                <source src="assets/demos/push/slight_slope_push.mp4" type="video/mp4">
+              </video>
+              <figcaption>Slight slope push</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="demo-category">
+          <h3>Slope</h3>
+          <div class="demo-row">
+            <figure>
+              <video controls muted loop playsinline>
+                <source src="assets/demos/slope/upslope.mp4" type="video/mp4">
+              </video>
+              <figcaption>Up slope</figcaption>
+            </figure>
+            <figure>
+              <video controls muted loop playsinline>
+                <source src="assets/demos/slope/down_slope.mp4" type="video/mp4">
+              </video>
+              <figcaption>Down slope</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="demo-category">
+          <h3>Stairs</h3>
+          <div class="demo-row">
+            <figure>
+              <video controls muted loop playsinline>
+                <source src="assets/demos/stairs/higher.mp4" type="video/mp4">
+              </video>
+              <figcaption>High stairs</figcaption>
+            </figure>
+          </div>
         </div>
       </section>
     </main>

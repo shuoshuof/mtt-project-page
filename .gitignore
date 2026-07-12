@@ -1,0 +1,9 @@
+# Original raw videos (only tracked demos in assets/demos/)
+assets/videos/
+
+# Local spec/doc files
+page.md
+
+# Helper scripts (keep convert_video.sh)
+scripts/batch_convert.py
+scripts/batch_convert.sh

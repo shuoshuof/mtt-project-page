@@ -91,20 +91,29 @@ video {
   background: #17212b;
 }
 
-.teaser-video {
-  aspect-ratio: 16 / 9;
-  border-radius: 18px;
-  box-shadow: 0 20px 60px rgb(23 33 43 / 18%);
+.demo-category h3 {
+  margin: 40px 0 16px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-align: center;
+  color: #33404f;
 }
 
-.demo-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.demo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
 figure {
   margin: 0;
+}
+
+.demo-row figure {
+  flex: 1 1 320px;
+  max-width: 640px;
+  min-width: 0;
 }
 
 figure video {
@@ -129,7 +138,8 @@ figcaption {
     margin-bottom: 64px;
   }
 
-  .demo-grid {
-    grid-template-columns: 1fr;
+  .demo-row figure {
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 }
