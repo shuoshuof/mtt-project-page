@@ -142,8 +142,8 @@ figcaption {
 
 .ablation-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 28px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
 }
 
 .ablation-grid img {
@@ -156,6 +156,10 @@ figcaption {
 @media (max-width: 900px) {
   .demo-compare-group .demo-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ablation-grid {
+    grid-template-columns: 1fr;
   }
 
 }
