@@ -108,6 +108,37 @@ figcaption {
   text-align: center;
 }
 
+.demo-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.compare-col {
+  text-align: center;
+}
+
+.compare-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 99px;
+  margin-bottom: 10px;
+}
+
+.label-baseline {
+  color: #8b5e08;
+  background: #fff3d6;
+}
+
+.label-ours {
+  color: #087e8b;
+  background: #d6f4f7;
+}
+
 @media (max-width: 680px) {
   main {
     width: min(100% - 32px, 1120px);
@@ -121,5 +152,9 @@ figcaption {
   .demo-row figure {
     flex: 1 1 100%;
     max-width: 100%;
+  }
+
+  .demo-compare {
+    grid-template-columns: 1fr;
   }
 }
